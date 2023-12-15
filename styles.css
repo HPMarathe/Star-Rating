@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 
 .star{
@@ -20,4 +21,14 @@ body{
 
 .star:hover{
     cursor: pointer;
+}
+
+#p{
+    color: blue;
+}
+.star-rating{
+    background-color: #fff;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 30px;
 }
